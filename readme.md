@@ -32,7 +32,7 @@ A aplicação deve utilizar a API `https://api.openai.com/v1/chat/completions` c
 
 ## Avaliação
 - A elaboração do prompt e a solução para extração de dados são os pontos principais a serem avaliados.
-- A aplicação deve ser iniciada e fazer a análise das conversas ao executar o comando `docker-compose up --build`
+- A aplicação deve ser iniciada e fazer a análise das conversas ao executar o comando `docker-compose up --build`.
 
 ## Observações
 
