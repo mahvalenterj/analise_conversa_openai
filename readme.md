@@ -18,6 +18,7 @@ A aplicação deve utilizar a API `https://api.openai.com/v1/chat/completions` c
 1. Clone este repositório.
 2. Edite as configurações necessárias para incluir a chave da API do OpenAI.
 3. Caso queira adicionar novas colunas à tabela `analysis`, faça a alteração no modelo de dados correspondente.
+4. Adicione sua aplicação no docker compose.
 
 ## Execução
 
