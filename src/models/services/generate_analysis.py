@@ -1,6 +1,8 @@
 import json
 from typing import Dict, Any
-from clients.openai_client import openai_client
+from src.models.services import find_analysis
+from src.models.services import generate_analysis
+from src.models.resources import openai_client
 
 
 async def generate_analysis(session_id: int, messages: Any) -> Dict[str, Any]:
@@ -9,7 +11,7 @@ async def generate_analysis(session_id: int, messages: Any) -> Dict[str, Any]:
         temperature=0.7,
         messages=[
             {
-                "role": "system",  # Corrigido de "developer" para "system"
+                "role": "system",
                 "content": (
                     "Você é um agente especializado em gerar análises de sessões "
                     "de conversação sobre agendamento de horários em motéis. "
